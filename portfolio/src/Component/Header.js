@@ -5,9 +5,9 @@ const Header = () => {
       <div className={"navbar"}>
           <h1>Mathéo Simon</h1>
           <div className={"link"}>
-              <a href={"#about-me"}>à propos de moi</a>
-              <a href={"#competence"}>mes compétences</a>
-              <a href={"#project"}>mes projets</a>
+              <a href={"#about-me"}>A propos de moi</a>
+              <a href={"#competence"}>Mes compétences</a>
+              <a href={"#project"}>Mes projets</a>
           </div>
       </div>
   )

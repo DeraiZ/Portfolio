@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -37,6 +39,18 @@
   }
 }
 
+body{
+  font-family: 'Josefin Sans', sans-serif;;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+p{
+  font-size: 2rem;
+}
+
 .navbar{
   display: flex;
   flex-direction: row;
@@ -44,6 +58,81 @@
   align-items: center;
 }
 
+.navbar h1{
+  margin-left: 5rem;
+}
+
 .navbar .link {
   margin-right: 5rem;
+}
+
+#competence{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wrapper{
+  height: 100%;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  position:sticky;
+  margin: 0px 2rem 0px 2rem;
+}
+
+.competence{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+
+.competence img{
+  width: 100%;
+}
+
+#competence h2{
+  width: 100%;
+  border-bottom: 3px solid black;
+}
+
+.skill{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#project{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.project_wrapper{
+  height: 100%;
+}
+
+.project_flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  position:sticky;
+  margin: 0px 2rem 0px 2rem;
+}
+
+.project img {
+  width: 100%;
+}
+
+.dealgames{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
