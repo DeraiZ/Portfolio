@@ -4,7 +4,7 @@ import AboutMe from "../Component/About-Me";
 import Competence from "../Component/Competence";
 import Project from "../Component/Project";
 import Network from "../Component/Network";
-
+import {FaArrowCircleUp} from 'react-icons/fa';
 const Portfolio = () => {
   return (
       <main>
@@ -13,6 +13,7 @@ const Portfolio = () => {
           <Competence/>
           <Project/>
           <Network/>
+          <a href={"#navbar"}><FaArrowCircleUp className={"arrow"}/></a>
       </main>
   )
 }

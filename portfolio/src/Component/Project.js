@@ -58,7 +58,6 @@ const Project = () => {
                       <p>Projet consistant à créer un site afin de se familiariser avec les selecteurs graphique CSS</p>
                       <p>07/10/2021</p>
                   </div>
-
               </div>
 
           </div>
