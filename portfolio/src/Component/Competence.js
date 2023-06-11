@@ -13,7 +13,7 @@ const Compétence = () => {
               <h2>Programmation</h2>
                  <div className={"competence programmation"}>
                   <div  className={"skill"}>
-                    <img src={require("../img/disquette-html.jpg")} alt={"HTML 5"}/>
+                    <img src={require("../img/disquette-html.png")} alt={"HTML 5"}/>
                     <p>HTML</p>
                   </div>
                   <div className={"skill"}>

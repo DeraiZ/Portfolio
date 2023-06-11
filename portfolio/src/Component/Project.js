@@ -15,9 +15,10 @@ const Project = () => {
               <div className={"NFT-MarketPlace"}>
                   <img src={require("../project_img/NFT-MarketPlace.png")} alt={"NFT-MarketPlace Project"}/>
                   <div className={"description"}>
-                      <p>Projet NFT-MarketPlace </p>
+                      <h3>Projet NFT-MarketPlace </h3>
                       <p>Projet consistant à créer une application mobile à l'aide de ExpoGO en react</p>
                       <p>21/03/2023</p>
+                      <a href="https://github.com/DeraiZ/NFTMarketplace-Project">Voir Plus</a>
                   </div>
               </div>
               <div className={"dealgames"}>
@@ -26,6 +27,7 @@ const Project = () => {
                       <p>Projet Dealgames</p>
                       <p>Projet consistant à créer un site de vente de jeux videos en ligne en Synfony. Projet toujours en développement</p>
                       <p>07/03/2023</p>
+                      <a href="https://github.com/DeraiZ/DealGames_Symfony_Project">Voir Plus</a>
                   </div>
 
               </div>
@@ -35,6 +37,7 @@ const Project = () => {
                       <p>Projet RockBand - Fan Page</p>
                       <p>Projet consistant à créer un site concernant un groupe de Rock afin de se familiariser avec le référencement</p>
                       <p>31/01/2023</p>
+                      <a href="https://github.com/DeraiZ/RockBand-Fanpage">Voir Plus</a>
                   </div>
 
               </div>
@@ -44,6 +47,7 @@ const Project = () => {
                       <p>Projet JAVA Games</p>
                       <p>Projet consistant à regrouper different jeux créer en Java en un seule programme</p>
                       <p>26/01/2023</p>
+                      <a href="https://github.com/DeraiZ/JAVA_Game">Voir Plus</a>
                   </div>
 
               </div>
