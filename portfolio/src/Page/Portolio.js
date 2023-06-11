@@ -13,7 +13,7 @@ const Portfolio = () => {
           <Competence/>
           <Project/>
           <Network/>
-          <a href={"#navbar"}><FaArrowCircleUp className={"arrow"}/></a>
+          <a href={"#"}><FaArrowCircleUp className={"arrow"}/></a>
       </main>
   )
 }
