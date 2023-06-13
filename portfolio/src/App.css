@@ -248,6 +248,10 @@ a{
     font-size: calc(20px + 1vw);
   }
 
+  #about-me{
+    padding: 10rem 5rem 10rem 5rem;
+  }
+
    .link{
     display: none;
   }
