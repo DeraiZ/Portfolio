@@ -61,6 +61,10 @@ p{
   color: #61dafb;
 }
 
+.link a {
+  font-size: 1rem;
+}
+
 a{
   text-decoration: none;
   color: #61dafb;
@@ -89,7 +93,7 @@ a{
 }
 
 #about-me{
-  height: 100%;
+  height: 80%;
   background-color: #0c0c0c;
   padding: 15rem 5rem 25rem 5rem;
 
@@ -232,4 +236,96 @@ a{
 .arrow:hover{
   opacity: 1;
   height: 2.5rem;
+}
+
+@media (max-width: 1260px) {
+   .link{
+    display: none;
+  }
+
+  #navbar {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #navbar h1{
+    margin-left: 0;
+    font-size: 5vw;
+  }
+
+  #competence{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex{
+    border-right: none;
+    margin-left: 0;
+  }
+
+  .flex h1{
+    font-size: calc(25px + 2vw);
+  }
+
+  .flex p {
+    font-size: calc(20px + 1vw);
+  }
+
+  .skill img{
+    width: 30vw;
+  }
+
+  .skill p {
+    font-size: calc(20px + 1vw);
+  }
+
+  #project{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project_flex{
+    border-right: none;
+    border-bottom: #61dafb 5px solid;
+  }
+
+  .project_flex h1{
+    font-size: calc(25px + 2vw);
+  }
+
+  .project_flex p {
+    font-size: calc(20px + 1vw);
+  }
+
+  .NFT-MarketPlace{
+    border-bottom: #61dafb 5px solid;
+
+  }
+
+  .dealgames{
+    border-bottom: #61dafb 5px solid;
+
+  }
+
+  .RockBand-FanPage{
+    border-bottom: #61dafb 5px solid;
+
+  }
+
+  .JavaGames{
+    border-bottom: #61dafb 5px solid;
+  }
+
+  .network{
+    margin-left: 2vw;
+  }
+
+  .network_flex h1{
+    font-size: calc(25px + 2vw);
+  }
+
+  .network_flex p {
+    font-size: calc(20px + 1vw);
+  }
+
 }

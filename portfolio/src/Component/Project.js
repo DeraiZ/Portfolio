@@ -31,7 +31,7 @@ const Project = () => {
                   </div>
 
               </div>
-              <div className={"skill"}>
+              <div className={"RockBand-FanPage"}>
                   <img src={require("../project_img/RockBand-FanPage.png")} alt={"Rockband Fan Page Project"}/>
                   <div className={"description"}>
                       <p>Projet RockBand - Fan Page</p>
@@ -41,7 +41,7 @@ const Project = () => {
                   </div>
 
               </div>
-              <div className={"skill"}>
+              <div className={"JavaGames"}>
                   <img src={require("../project_img/JAVA_Games.png")} alt={"Java Games Project"}/>
                   <div className={"description"}>
                       <p>Projet JAVA Games</p>
@@ -51,7 +51,7 @@ const Project = () => {
                   </div>
 
               </div>
-              <div className={"skill"}>
+              <div className={"RainbowPhoto"}>
                   <img src={require("../project_img/RainbowPhoto.png")} alt={"Rainbow Photo Project"}/>
                   <div className={"description"}>
                       <p>Projet Rainbow Photo</p>
