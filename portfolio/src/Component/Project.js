@@ -24,7 +24,7 @@ const Project = () => {
               <div className={"dealgames"}>
                   <img src={require("../project_img/dealgames.png")} alt={"Dealgames Project"}/>
                   <div className={"description"}>
-                      <p>Projet Dealgames</p>
+                      <h3>Projet Dealgames</h3>
                       <p>Projet consistant à créer un site de vente de jeux videos en ligne en Synfony. Projet toujours en développement</p>
                       <p>07/03/2023</p>
                       <a href="https://github.com/DeraiZ/DealGames_Symfony_Project">Voir Plus</a>
@@ -34,7 +34,7 @@ const Project = () => {
               <div className={"RockBand-FanPage"}>
                   <img src={require("../project_img/RockBand-FanPage.png")} alt={"Rockband Fan Page Project"}/>
                   <div className={"description"}>
-                      <p>Projet RockBand - Fan Page</p>
+                      <h3>Projet RockBand - Fan Page</h3>
                       <p>Projet consistant à créer un site concernant un groupe de Rock afin de se familiariser avec le référencement</p>
                       <p>31/01/2023</p>
                       <a href="https://github.com/DeraiZ/RockBand-Fanpage">Voir Plus</a>
@@ -44,7 +44,7 @@ const Project = () => {
               <div className={"JavaGames"}>
                   <img src={require("../project_img/JAVA_Games.png")} alt={"Java Games Project"}/>
                   <div className={"description"}>
-                      <p>Projet JAVA Games</p>
+                      <h3>Projet JAVA Games</h3>
                       <p>Projet consistant à regrouper different jeux créer en Java en un seule programme</p>
                       <p>26/01/2023</p>
                       <a href="https://github.com/DeraiZ/JAVA_Game">Voir Plus</a>
@@ -54,7 +54,7 @@ const Project = () => {
               <div className={"RainbowPhoto"}>
                   <img src={require("../project_img/RainbowPhoto.png")} alt={"Rainbow Photo Project"}/>
                   <div className={"description"}>
-                      <p>Projet Rainbow Photo</p>
+                      <h3>Projet Rainbow Photo</h3>
                       <p>Projet consistant à créer un site afin de se familiariser avec les selecteurs graphique CSS</p>
                       <p>07/10/2021</p>
                   </div>

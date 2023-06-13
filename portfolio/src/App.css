@@ -239,6 +239,15 @@ a{
 }
 
 @media (max-width: 1260px) {
+
+  .presentation h1{
+    font-size: calc(25px + 2vw);
+  }
+
+  .presentation p {
+    font-size: calc(20px + 1vw);
+  }
+
    .link{
     display: none;
   }
@@ -250,7 +259,7 @@ a{
 
   #navbar h1{
     margin-left: 0;
-    font-size: 5vw;
+    font-size: 10vw;
   }
 
   #competence{
@@ -260,7 +269,7 @@ a{
 
   .flex{
     border-right: none;
-    margin-left: 0;
+    margin-left: 5vw;
   }
 
   .flex h1{
@@ -326,6 +335,15 @@ a{
 
   .network_flex p {
     font-size: calc(20px + 1vw);
+  }
+
+  .project h3{
+    font-size: calc(20px + 2vw);
+    margin-left: 5vw;
+  }
+
+  .project p{
+    margin-left: 5vw;
   }
 
 }
