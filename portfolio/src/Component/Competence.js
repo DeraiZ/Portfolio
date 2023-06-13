@@ -55,7 +55,7 @@ const Compétence = () => {
                       <p>Illustrator</p>
                   </div>
               </div>
-              <h2>Versioning</h2>
+              <h2>DevOps</h2>
               <div className={"competence versioning"}>
                   <div className={"skill"}>
                     <img src={require("../img/disquette-docker.png")} alt={"Docker"}/>
